@@ -1,8 +1,21 @@
 <template>
   <div>
+    <wip-navbar />
     <nuxt />
+    <wip-footer />
   </div>
 </template>
+
+<script>
+import WipNavbar from '~/components/Wip-Navbar'
+import WipFooter from '~/components/Wip-Footer'
+export default {
+  components: {
+    WipNavbar,
+    WipFooter
+  }
+}
+</script>
 
 <style>
 html {
