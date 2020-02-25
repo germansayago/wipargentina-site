@@ -1,6 +1,23 @@
 // custom.scss
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&display=swap');
+
 $primary:      #4737FF ;
+$font-family-sans-serif: 'Fira Sans';
+
+$font-size-base:              1rem !default; // Assumes the browser default, 
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$display1-size:               5rem !default;
+$display2-size:               4.5rem !default;
+$display3-size:               4rem !default;
+$display4-size:               3.5rem !default;
 
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';

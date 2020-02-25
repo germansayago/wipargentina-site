@@ -14,7 +14,27 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://code.jquery.com/jquery-3.4.1.slim.min.js',
+        body: true
+      },
+      {
+        src:
+          'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js',
+        body: true
+      },
+      {
+        src:
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js',
+        body: true
+      },
+      {
+        src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js',
+        body: true
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color

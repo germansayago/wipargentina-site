@@ -1,13 +1,13 @@
 <template>
-  <hero />
+  <hero-home />
 </template>
 
 <script>
-import Hero from '~/components/home/Hero'
+import HeroHome from '~/components/home/Hero'
 
 export default {
   components: {
-    Hero
+    HeroHome
   }
 }
 </script>
