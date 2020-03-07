@@ -11,7 +11,7 @@
             advertisers are now using a new type of technology called “rich
             media” to attract consumers.
           </h4>
-          <div class="btn btn-primary">
+          <div class="btn btn-secondary">
             ¡DALE!
           </div>
         </div>
@@ -28,7 +28,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  min-height: 100%;
+  height: 100vh;
   padding-top: 100px;
   background-image: url('/hero-bg-wipargentina.jpg');
   background-size: cover;

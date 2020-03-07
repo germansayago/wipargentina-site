@@ -1,14 +1,14 @@
 <template>
-  <div class="main">
+  <div>
     <wip-navbar />
-    <nuxt class="wrapper" />
+    <nuxt />
     <wip-footer />
   </div>
 </template>
 
 <script>
-import WipNavbar from '~/components/Wip-Navbar'
-import WipFooter from '~/components/Wip-Footer'
+import WipNavbar from '~/components/WipNavbar'
+import WipFooter from '~/components/WipFooter'
 export default {
   components: {
     WipNavbar,

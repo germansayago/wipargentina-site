@@ -1,17 +1,8 @@
-// base
 html{
   position: relative;
+  min-height: 100%;
 }
 body{
-  background-color: #E5E5E5;
-  //padding-top: 100px;
-}
-.main{
-  background-color: blue;
-  height: 100vh;
-}
-
-.wrapper {
-  background-color: green;
-  min-height: 100%;
+  background-color: white;
+  margin-bottom: 64px;
 }
