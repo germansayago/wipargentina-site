@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="container">
-      footer
+      wipargentina.com
     </div>
   </div>
 </template>

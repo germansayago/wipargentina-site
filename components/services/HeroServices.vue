@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <h3 class="display-3">
-            Blog
+            Servicios
           </h3>
         </div>
       </div>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'HeroBlog'
+  name: 'HeroServices'
 }
 </script>
 
@@ -33,6 +33,7 @@ export default {
   .display-3 {
     font-weight: 500;
     margin-bottom: 30px;
+    color: white;
   }
 }
 

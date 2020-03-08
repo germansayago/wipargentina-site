@@ -4,5 +4,27 @@ html{
 }
 body{
   background-color: white;
-  margin-bottom: 64px;
+  margin-bottom: 200px;
+}
+.section{
+  background-color: #fff;
+  margin: 60px 0;
+  &-large{
+    padding: 120px 0;
+  }
+  &-medium{
+    padding: 80px 0;
+  }
+  &-small{
+    padding: 40px 0;
+  }
+}
+.scroll{
+  background-color: red;
+}
+.divider{
+  background-color: lighten($secondary, 30%);
+  height: 6px;
+  width: 50px;
+  margin: 24px 0;
 }

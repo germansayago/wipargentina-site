@@ -11,9 +11,9 @@
             advertisers are now using a new type of technology called “rich
             media” to attract consumers.
           </h4>
-          <div class="btn btn-secondary">
-            ¡DALE!
-          </div>
+          <scroll-link href="#beneficies" class="btn btn-secondary"
+            >¡DALE!</scroll-link
+          >
         </div>
       </div>
     </div>
@@ -21,8 +21,14 @@
 </template>
 
 <script>
+import ScrollLink from '~/components/ScrollLink'
+
 export default {
-  name: 'HeroHome'
+  name: 'HeroHome',
+
+  components: {
+    ScrollLink
+  }
 }
 </script>
 
@@ -30,6 +36,7 @@ export default {
 .hero {
   height: 100vh;
   padding-top: 100px;
+  margin-bottom: 120px;
   background-image: url('/hero-bg-wipargentina.jpg');
   background-size: cover;
   background-position: center center;
@@ -42,12 +49,14 @@ export default {
   .display-3 {
     font-weight: 500;
     margin-bottom: 30px;
+    color: white;
   }
 
   h4 {
     font-weight: 300;
     line-height: 2.2rem;
     margin-bottom: 50px;
+    color: white;
   }
 
   .btn {

@@ -1,7 +1,9 @@
 .footer{
-  background-color: red;
+  background-color: $primary;
+  color: $light;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 200px;
+  padding-top: 30px;
 }

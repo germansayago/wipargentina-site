@@ -18,13 +18,13 @@
 
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item" :class="{ active: path === 'index' }">
             <nuxt-link to="/" class="nav-link">Inicio</nuxt-link>
           </li>
-          <li class="nav-item">
-            <nuxt-link to="/" class="nav-link">Servicios</nuxt-link>
+          <li class="nav-item" :class="{ active: path === 'services' }">
+            <nuxt-link to="/services" class="nav-link">Servicios</nuxt-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" :class="{ active: path === 'blog' }">
             <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
           </li>
         </ul>
@@ -51,3 +51,13 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  computed: {
+    path() {
+      return this.$route.name
+    }
+  }
+}
+</script>
