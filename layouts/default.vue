@@ -36,4 +36,10 @@ export default {
   right: 30px;
   z-index: 99;
 }
+
+@media (max-width: 767px) {
+  .scroll-up {
+    display: none;
+  }
+}
 </style>
