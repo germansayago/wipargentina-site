@@ -12,28 +12,22 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input
-                    type="text"
-                    placeholder="Nombre"
-                    class="form-control"
-                  />
+                  <label for="">Nombre y Apellido</label>
+                  <input type="text" class="form-control" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" placeholder="Email" class="form-control" />
+                  <label for="">Email</label>
+                  <input type="text" class="form-control" />
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <textarea
-                name=""
-                rows="4"
-                placeholder="Contamos en que podemos ayudarte"
-                class="form-control"
-              ></textarea>
+              <label for="">Contamos en que podemos ayudarte</label>
+              <textarea name="" rows="4" class="form-control"></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary btn-block py-2">
+            <button type="submit" class="btn btn-primary px-5 py-3 mt-3">
               ENVIAR
             </button>
           </form>

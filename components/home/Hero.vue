@@ -10,7 +10,7 @@
             From ads that dance or sing to MTV-like commercials, online
             advertisers are now using a new type of technology.
           </h4>
-          <scroll-link href="#beneficies" class="btn btn-secondary"
+          <scroll-link href="#beneficies" class="btn btn-outline-light"
             >¡DALE!</scroll-link
           >
         </div>

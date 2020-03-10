@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <nuxt-link to="/" class="navbar-brand d-lg-none">
-        <img src="/wip-color.svg" alt="" />
+      <nuxt-link to="/" class="navbar-brand d-lg-none" alt="home">
+        <img src="/wip-color.svg" alt="logo" />
       </nuxt-link>
       <button
         class="navbar-toggler"
@@ -29,8 +29,12 @@
           </li>
         </ul>
 
-        <nuxt-link to="/" class="navbar-brand mx-auto d-none d-lg-block">
-          <img src="/wip-color.svg" alt="" />
+        <nuxt-link
+          to="/"
+          class="navbar-brand mx-auto d-none d-lg-block"
+          alt="home"
+        >
+          <img src="/wip-color.svg" alt="logo" />
         </nuxt-link>
 
         <div class="navbar-social">

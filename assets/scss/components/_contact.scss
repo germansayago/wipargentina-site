@@ -1,4 +1,10 @@
 .contact{
   text-align: center;
   padding-bottom: 100px;
+  .form-group{
+    text-align-last: left;
+    label{
+      color: $primary;
+    }
+  }
 }
