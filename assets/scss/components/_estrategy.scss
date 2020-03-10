@@ -2,7 +2,7 @@
   .image {
     height: 300px;
     width: 100%;
-    margin: 50px 0;
+    margin: 50px 0 70px 0;
     object-fit: cover;
     object-position: center;
   }
@@ -11,17 +11,32 @@
     text-align: left;
     background-color: transparent;
     border: 0px;
+    cursor: pointer;
+    padding: 4px;
+    margin-bottom: 50px;
+
+    &:hover{
+      .card-body{
+        ion-icon{
+          color: orange;
+        }
+        h3{
+          color: $secondary;
+        }
+      }
+    }
   
     .card-body {
+      padding: 0;
       ion-icon {
-        font-size: 2.6rem;
-        margin-bottom: 0;
+        font-size: 3rem;
+        margin-bottom: 4px;
         color: #777;
       }
       h3 {
+        color: #444;
         font-weight: 400;
         margin: 4px 0 16px 0;
-        text-transform: uppercase;
       }
     }
   }
