@@ -43,9 +43,13 @@
   </section>
 </template>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 .form-control {
   border-radius: 0px;
   padding: 20px 16px;
+}
+.btn {
+  font-weight: 400;
+  letter-spacing: 0.06rem;
 }
 </style>

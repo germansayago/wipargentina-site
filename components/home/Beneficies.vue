@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-large beneficies">
+  <section class="section section-small beneficies">
     <div class="container pt-5">
       <div class="row justify-content-between">
         <div class="col-md-6">

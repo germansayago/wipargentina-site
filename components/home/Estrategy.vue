@@ -1,7 +1,7 @@
 <template>
-  <section class="section section-medium estrategy">
+  <section class="section section-small estrategy">
     <div class="container">
-      <h2 class="display-4">¿En que fase esta tu negocio?</h2>
+      <h2 class="display-4">¿En que fase se encuentra tu negocio?</h2>
       <div class="divider"></div>
       <img
         src="https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80"
@@ -67,32 +67,3 @@ export default {
   name: 'Estrategy'
 }
 </script>
-
-<style lang="scss">
-.image {
-  height: 300px;
-  width: 100%;
-  margin: 50px 0;
-  object-fit: cover;
-  object-position: center;
-}
-
-.card {
-  text-align: center;
-  background-color: transparent;
-  border: 0px;
-
-  .card-body {
-    ion-icon {
-      font-size: 2.6rem;
-      margin-bottom: 0;
-      color: #777;
-    }
-    h3 {
-      font-weight: 400;
-      margin: 4px 0 16px 0;
-      text-transform: uppercase;
-    }
-  }
-}
-</style>

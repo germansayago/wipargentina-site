@@ -1,0 +1,46 @@
+.services{
+  background-color: rgba($secondary, 0.04);
+  
+  .card {
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    padding: 4px;
+    margin-bottom: 50px;
+
+    &:hover{
+      .card-body{
+        ion-icon{
+          color: orange;
+        }
+        h4{
+          color: $secondary;
+        }
+      }
+    }
+  
+    .card-body {
+      padding: 0;
+      ion-icon {
+        font-size: 3rem;
+        margin-bottom: 4px;
+        color: #777;
+      }
+      h4 {
+        color: #444;
+        font-weight: 400;
+        margin: 4px 0 16px 0;
+      }
+    }
+    .card-footer{
+      border-top: 0;
+      background-color: transparent;
+      padding: 0;
+      ion-icon {
+        font-size: 1.4rem;
+        color: #777;
+      }
+    }
+  }
+}
