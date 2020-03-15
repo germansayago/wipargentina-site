@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-small estrategy">
+  <section id="estrategy" class="section section-small estrategy">
     <div class="container">
       <h2 class="display-4">¿En que fase se encuentra tu negocio?</h2>
       <div class="divider"></div>

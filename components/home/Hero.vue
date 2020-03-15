@@ -7,11 +7,17 @@
             Escalemos tu negocio a su máximo potencial
           </h1>
           <h4>
-            From ads that dance or sing to MTV-like commercials, online
-            advertisers are now using a new type of technology.
+            Construimos estrategias digitales de alto valor, claves para el
+            futuro de tu negocio en internet.
           </h4>
-          <scroll-link href="#beneficies" class="btn btn-outline-light"
+          <!-- <scroll-link href="#beneficies" class="btn btn-outline-light"
             >¡DALE!</scroll-link
+          > -->
+          <a
+            v-scroll-to="{ el: '#beneficies', offset: -50 }"
+            href="#"
+            class="btn btn-outline-light"
+            >¡DALE!</a
           >
         </div>
       </div>
@@ -20,13 +26,7 @@
 </template>
 
 <script>
-import ScrollLink from '~/components/ScrollLink'
-
 export default {
-  name: 'HeroHome',
-
-  components: {
-    ScrollLink
-  }
+  name: 'HeroHome'
 }
 </script>

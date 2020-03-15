@@ -6,11 +6,18 @@
 
 <script>
 export default {
-  props: ['href'],
+  props: {
+    href: {
+      type: String,
+      required: true
+    }
+  },
 
   methods: {
     scroll() {
-      document.querySelector(this.href).scrollIntoView({ behavior: 'smooth' })
+      document
+        .querySelector(this.href)
+        .scrollIntoView({ top: 100, behavior: 'smooth' })
     }
   }
 }

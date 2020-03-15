@@ -31,13 +31,14 @@
       &.active {
         border-bottom: 5px solid $primary;
       }
-      padding: 0px 24px;
+      padding: 0px 8px;
       border-bottom: 5px solid transparent;
 
       .nav-link {
         text-transform: uppercase;
         color: $primary;
-        letter-spacing: 2px;
+        letter-spacing: 0.05rem;
+        font-size: 1rem;
       }
     }
   }

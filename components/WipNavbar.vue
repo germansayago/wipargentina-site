@@ -18,7 +18,7 @@
 
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item" :class="{ active: path === 'index' }">
+          <!-- <li class="nav-item">
             <nuxt-link to="/" class="nav-link">Inicio</nuxt-link>
           </li>
           <li class="nav-item" :class="{ active: path === 'services' }">
@@ -26,6 +26,35 @@
           </li>
           <li class="nav-item" :class="{ active: path === 'blog' }">
             <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
+          </li> -->
+          <li class="nav-item">
+            <a v-scroll-to="{ el: '#top', offset: 0 }" href="#" class="nav-link"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              v-scroll-to="{ el: '#beneficies', offset: -50 }"
+              href="#"
+              class="nav-link"
+              >Beneficios</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              v-scroll-to="{ el: '#estrategy', offset: -50 }"
+              href="#"
+              class="nav-link"
+              >Estrategia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              v-scroll-to="{ el: '#services', offset: -50 }"
+              href="#"
+              class="nav-link"
+              >Servicios</a
+            >
           </li>
         </ul>
 
@@ -49,6 +78,12 @@
           ></a>
           <a href="" class="nav-link"
             ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+          <a
+            v-scroll-to="{ el: '#contact', offset: -50 }"
+            href="#"
+            class="nav-link"
+            ><ion-icon name="mail"></ion-icon
           ></a>
         </div>
       </div>

@@ -73,7 +73,9 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/rigor789/vue-scrollto
+    'vue-scrollto/nuxt'
   ],
   /*
    ** Axios module configuration
