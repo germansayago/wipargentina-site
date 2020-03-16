@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="section section-small">
-      <h3>Estrategias y Estadísticas Landing</h3>
-      <nuxt-link to="/landing/estrategias-y-estadisticas/gracias"
+      <h3>Estrategias y Analíticas Landing</h3>
+      <nuxt-link to="/landing/estrategias-y-analiticas/gracias"
         >gracias</nuxt-link
       >
     </div>
@@ -13,6 +13,6 @@
 export default {
   layout: 'landing',
 
-  name: 'EstrategiaEstadisticas'
+  name: 'EstrategiaAnaliticas'
 }
 </script>
