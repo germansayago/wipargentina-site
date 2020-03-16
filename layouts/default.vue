@@ -1,8 +1,6 @@
 <template>
   <div id="top">
-    <scroll-link href="#top" class="btn btn-secondary scroll-up"
-      ><ion-icon name="arrow-up-outline"></ion-icon
-    ></scroll-link>
+    <scroll-top />
     <wip-navbar />
     <nuxt />
     <wip-footer />
@@ -12,13 +10,13 @@
 <script>
 import WipNavbar from '~/components/WipNavbar'
 import WipFooter from '~/components/WipFooter'
-import ScrollLink from '~/components/ScrollLink'
+import ScrollTop from '~/components/ScrollTop'
 
 export default {
   components: {
     WipNavbar,
     WipFooter,
-    ScrollLink
+    ScrollTop
   },
 
   data() {

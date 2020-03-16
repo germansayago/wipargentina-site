@@ -47,6 +47,11 @@
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
+    .nav-item{
+      .nav-link{
+        font-size: 1.2rem;
+      }
+    }
   }
 }
 

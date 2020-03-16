@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-home></hero-home>
-    <beneficies id="beneficies"></beneficies>
+    <beneficies></beneficies>
     <estrategy></estrategy>
     <services></services>
     <contact></contact>

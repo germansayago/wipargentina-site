@@ -18,15 +18,6 @@
 
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <!-- <li class="nav-item">
-            <nuxt-link to="/" class="nav-link">Inicio</nuxt-link>
-          </li>
-          <li class="nav-item" :class="{ active: path === 'services' }">
-            <nuxt-link to="/services" class="nav-link">Servicios</nuxt-link>
-          </li>
-          <li class="nav-item" :class="{ active: path === 'blog' }">
-            <nuxt-link to="/blog" class="nav-link">Blog</nuxt-link>
-          </li> -->
           <li class="nav-item">
             <a v-scroll-to="{ el: '#top', offset: 0 }" href="#" class="nav-link"
               >Inicio</a
