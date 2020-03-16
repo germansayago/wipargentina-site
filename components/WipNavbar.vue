@@ -1,9 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <nuxt-link to="/" class="navbar-brand d-lg-none" alt="home">
+      <!-- <nuxt-link to="/" class="navbar-brand d-lg-none" alt="home">
         <img src="/wip-color.svg" alt="logo" />
-      </nuxt-link>
+      </nuxt-link> -->
+      <a v-scroll-to="{ el: '#top' }" href="#" class="navbar-brand d-lg-none"
+        ><img src="/wip-color.svg" alt="logo"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,13 +52,20 @@
           </li>
         </ul>
 
-        <nuxt-link
+        <!-- <nuxt-link
           to="/"
           class="navbar-brand mx-auto d-none d-lg-block"
           alt="home"
         >
           <img src="/wip-color.svg" alt="logo" />
-        </nuxt-link>
+        </nuxt-link> -->
+
+        <a
+          v-scroll-to="{ el: '#top' }"
+          href="#"
+          class="navbar-brand mx-auto d-none d-lg-block"
+          ><img src="/wip-color.svg" alt="logo"
+        /></a>
 
         <div class="navbar-social">
           <a href="" class="nav-link"
