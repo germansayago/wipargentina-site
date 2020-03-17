@@ -1,8 +1,8 @@
 <template>
   <div>
     <hero-home></hero-home>
-    <beneficies></beneficies>
     <estrategy></estrategy>
+    <objetives></objetives>
     <services></services>
     <contact></contact>
   </div>
@@ -10,16 +10,16 @@
 
 <script>
 import HeroHome from '~/components/home/Hero'
-import Beneficies from '~/components/home/Beneficies'
 import Estrategy from '~/components/home/Estrategy'
+import Objetives from '~/components/home/Objetives'
 import Services from '~/components/home/Services'
 import Contact from '~/components/Contact'
 
 export default {
   components: {
     HeroHome,
-    Beneficies,
     Estrategy,
+    Objetives,
     Services,
     Contact
   }

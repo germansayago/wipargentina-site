@@ -1,61 +1,33 @@
 <template>
   <section id="estrategy" class="section section-small estrategy">
-    <div class="container">
-      <h2 class="display-4">¿En que fase se encuentra tu negocio?</h2>
-      <div class="divider"></div>
-      <img
-        src="https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80"
-        alt=""
-        class="image"
-      />
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <ion-icon name="bulb-outline"></ion-icon>
-              <h3>Builders</h3>
-              <p>
-                Tenemos que construir nuestra marca y deseamos iniciar en el
-                mundo digital
-              </p>
-            </div>
-          </div>
+    <div class="container pt-5">
+      <div class="row justify-content-between">
+        <div class="col-md-6">
+          <p class="lead">¡Hagamos que tu negocio y equipo sean un éxito!</p>
+          <h2 class="display-4">
+            Empezás, medís, escalás y triunfás
+          </h2>
+          <div class="divider"></div>
+          <p>
+            Aplicamos y planificamos acciones digitales estratégicas y alineadas
+            a las <b>metas de tu negocio</b>.
+          </p>
+          <p>
+            Nuestro expertise es construir e interpretar indicadores aplicables
+            al <b>mercado digital</b> y orientadas a diferentes
+            <b>audiencias</b>.
+          </p>
+          <p>
+            Tu <b>público se renueva o modifica sus intereses</b>, por lo que su
+            <b>análisis y calibración</b> son factores claves de éxito de tu
+            negocio y de nuestra tarea en equipo.
+          </p>
+          <p class="text-secondary font-weight-bold">
+            Siempre ágiles e integrados.
+          </p>
         </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <ion-icon name="magnet-outline"></ion-icon>
-              <h3>Finders</h3>
-              <p>
-                Queremos explorar nuevos mercados y saber donde estan nuestros
-                clientes
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <ion-icon name="heart-outline"></ion-icon>
-              <h3>Loyalters</h3>
-              <p>
-                Necesitamos implementar estrategias para cuidar y fidelizar
-                nuestros clientes
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <ion-icon name="rocket-outline"></ion-icon>
-              <h3>Xpanders</h3>
-              <p>
-                Vamos por todo, <br />
-                estamos listos para llevar nuestra organización a tope
-              </p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <img src="/box-2.png" alt="image" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -64,6 +36,6 @@
 
 <script>
 export default {
-  name: 'Estrategy'
+  name: 'Beneficies'
 }
 </script>

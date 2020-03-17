@@ -14,10 +14,10 @@
             >¡DALE!</scroll-link
           > -->
           <a
-            v-scroll-to="{ el: '#beneficies', offset: -50 }"
+            v-scroll-to="{ el: '#estrategy', offset: -50 }"
             href="#"
-            class="btn btn-outline-light"
-            >¡DALE!</a
+            class="btn btn-outline-light text-uppercase"
+            >¡Comencemos!</a
           >
         </div>
       </div>

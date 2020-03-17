@@ -43,6 +43,11 @@ export default {
       {
         src: 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js',
         body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js',
+        body: true
       }
     ]
   },

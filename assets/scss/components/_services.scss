@@ -19,11 +19,23 @@
         }
       }
     }
+
+    .card-image{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      margin-bottom: 30px;
+    }
   
     .card-body {
       padding: 0;
       ion-icon {
         font-size: 3rem;
+        margin-bottom: 4px;
+        color: #777;
+        display: none;
+      }
+      .fas {
         margin-bottom: 4px;
         color: #777;
       }
@@ -34,6 +46,7 @@
       }
     }
     .card-footer{
+      display: none;
       border-top: 0;
       background-color: transparent;
       padding: 0;

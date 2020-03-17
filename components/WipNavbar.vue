@@ -1,9 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <!-- <nuxt-link to="/" class="navbar-brand d-lg-none" alt="home">
-        <img src="/wip-color.svg" alt="logo" />
-      </nuxt-link> -->
       <a v-scroll-to="{ el: '#top' }" href="#" class="navbar-brand d-lg-none"
         ><img src="/wip-color.svg" alt="logo"
       /></a>
@@ -22,24 +19,19 @@
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a v-scroll-to="{ el: '#top', offset: 0 }" href="#" class="nav-link"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              v-scroll-to="{ el: '#beneficies', offset: -50 }"
-              href="#"
-              class="nav-link"
-              >Beneficios</a
-            >
-          </li>
-          <li class="nav-item">
             <a
               v-scroll-to="{ el: '#estrategy', offset: -50 }"
               href="#"
               class="nav-link"
               >Estrategia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              v-scroll-to="{ el: '#objetives', offset: -50 }"
+              href="#"
+              class="nav-link"
+              >Objetivos</a
             >
           </li>
           <li class="nav-item">
@@ -51,14 +43,6 @@
             >
           </li>
         </ul>
-
-        <!-- <nuxt-link
-          to="/"
-          class="navbar-brand mx-auto d-none d-lg-block"
-          alt="home"
-        >
-          <img src="/wip-color.svg" alt="logo" />
-        </nuxt-link> -->
 
         <a
           v-scroll-to="{ el: '#top' }"
