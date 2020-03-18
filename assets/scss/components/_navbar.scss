@@ -27,7 +27,6 @@
       height: 80px;
       display: flex;
       align-items: center;
-      font-weight: 500;
       &.active {
         border-bottom: 5px solid $primary;
       }
@@ -37,8 +36,13 @@
       .nav-link {
         text-transform: uppercase;
         color: $primary;
-        letter-spacing: 0.05rem;
-        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+
+        &:hover{
+          color: $secondary;
+        }
       }
     }
   }
@@ -50,6 +54,9 @@
     .nav-item{
       .nav-link{
         font-size: 1.2rem;
+        &:hover{
+          color: $secondary;
+        }
       }
     }
   }
@@ -95,7 +102,6 @@
   
         .nav-link {
           text-transform: uppercase;
-          color: $primary;
           letter-spacing: 2px;
         }
       }

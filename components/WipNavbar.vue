@@ -52,24 +52,34 @@
         /></a>
 
         <div class="navbar-social">
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-twitter"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-instagram"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-facebook"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-linkedin"></ion-icon
-          ></a>
-          <a
-            v-scroll-to="{ el: '#contact', offset: -50 }"
-            href="#"
-            class="nav-link"
-            ><ion-icon name="mail"></ion-icon
-          ></a>
+          <div class="nav-item">
+            <a href="" class="nav-link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a
+              v-scroll-to="{ el: '#contact', offset: -50 }"
+              href="#"
+              class="nav-link"
+              ><ion-icon name="mail"></ion-icon
+            ></a>
+          </div>
         </div>
       </div>
     </div>

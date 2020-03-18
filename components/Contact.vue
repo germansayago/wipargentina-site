@@ -9,9 +9,8 @@
             cambiar su futuro, afianzando su presencia en internet
           </p>
           <p class="lead mb-5">
-            Nos encantan los desafíos y estamos muy motivados en ponernos a
-            trabajar juntos para cambiar el futuro de tu negocio, queremos
-            afianzar y hacer crecer tu presencia en internet.
+            Nos motiva el desafío de hacer crecer y afianzar tu presencia en
+            internet, trabajemos juntos!
           </p>
           <form action="">
             <div class="row">
@@ -28,12 +27,16 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <label for="">Tu email</label>
-                  <input type="text" class="form-control" placeholder="" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="elon@musk.com"
+                  />
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="">Contamos cómo podemos ayudarte</label>
+              <label for="">Contanos cómo podemos ayudarte</label>
               <textarea name="" rows="4" class="form-control"></textarea>
             </div>
             <button type="submit" class="btn btn-primary px-5 py-3 mt-3">

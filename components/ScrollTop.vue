@@ -5,3 +5,9 @@
     ></a>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'ScrollTop'
+}
+</script>

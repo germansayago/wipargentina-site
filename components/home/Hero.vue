@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-10 col-lg-8">
           <h1 class="display-1">
             Escalemos tu negocio a su máximo potencial
           </h1>
@@ -10,9 +10,6 @@
             Construimos estrategias digitales de alto valor, claves para el
             futuro de tu negocio en internet.
           </h4>
-          <!-- <scroll-link href="#beneficies" class="btn btn-outline-light"
-            >¡DALE!</scroll-link
-          > -->
           <a
             v-scroll-to="{ el: '#estrategy', offset: -50 }"
             href="#"

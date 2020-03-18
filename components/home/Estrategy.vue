@@ -3,7 +3,10 @@
     <div class="container pt-5">
       <div class="row justify-content-between">
         <div class="col-md-6">
-          <p class="lead">¡Hagamos que tu negocio y equipo sean un éxito!</p>
+          <p class="lead">
+            ¡Hagamos que tu negocio y equipo <br class="d-md-none" />
+            sean un éxito!
+          </p>
           <h2 class="display-4">
             Empezás, medís, escalás y triunfás
           </h2>
@@ -26,7 +29,7 @@
             Siempre ágiles e integrados.
           </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-3 mt-md-0">
           <img src="/box-2.png" alt="image" class="img-fluid" />
         </div>
       </div>
