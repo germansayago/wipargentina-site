@@ -62,7 +62,13 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    {
+      // Doc: https://github.com/michalsnik/aos
+      src: '@/plugins/aos',
+      ssr: false
+    }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

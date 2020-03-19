@@ -7,6 +7,11 @@
         src="https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80"
         alt=""
         class="image"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-mirror="false"
+        data-aos-once="true"
       />
       <div class="row justify-content-center">
         <div class="col-md-3">

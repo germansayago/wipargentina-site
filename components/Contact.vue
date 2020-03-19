@@ -12,7 +12,14 @@
             Nos motiva el desafío de hacer crecer y afianzar tu presencia en
             internet, trabajemos juntos!
           </p>
-          <form action="">
+          <form
+            action=""
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-mirror="false"
+            data-aos-once="true"
+          >
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">

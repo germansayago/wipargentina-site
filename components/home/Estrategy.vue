@@ -30,7 +30,16 @@
           </p>
         </div>
         <div class="col-md-6 mt-3 mt-md-0">
-          <img src="/box-2.png" alt="image" class="img-fluid" />
+          <img
+            src="/box-2.png"
+            alt="image"
+            class="img-fluid"
+            data-aos="fade-up"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-mirror="false"
+            data-aos-once="true"
+          />
         </div>
       </div>
     </div>
