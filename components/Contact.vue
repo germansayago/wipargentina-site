@@ -2,7 +2,7 @@
   <section id="contact" class="section section-medium contact">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <h2 class="display-3 mb-3">¿En que fase está tu negocio?</h2>
           <p class="lead mb-5 d-none">
             Trabajamos junto a perfiles de empresas o personas que deseen
@@ -46,9 +46,20 @@
               <label for="">Contanos cómo podemos ayudarte</label>
               <textarea name="" rows="4" class="form-control"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary px-5 py-3 mt-3">
-              ENVIAR
-            </button>
+            <div class="d-md-flex justify-content-between text-center">
+              <button
+                type="submit"
+                class="btn btn-primary px-5 py-3 mt-3 mb-3 mb-md-0"
+              >
+                ENVIAR
+              </button>
+              <a
+                href=""
+                class="btn btn-outline-secondary px-5 py-3 mt-3 d-md-flex align-items-center"
+                ><ion-icon name="logo-whatsapp"></ion-icon>
+                <span class="ml-2">ESCRIBINOS</span></a
+              >
+            </div>
           </form>
         </div>
       </div>

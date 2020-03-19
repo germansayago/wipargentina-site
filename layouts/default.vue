@@ -1,6 +1,5 @@
 <template>
   <div id="top">
-    <scroll-top />
     <wip-navbar />
     <nuxt />
     <wip-footer />
@@ -10,13 +9,11 @@
 <script>
 import WipNavbar from '~/components/WipNavbar'
 import WipFooter from '~/components/WipFooter'
-import ScrollTop from '~/components/ScrollTop'
 
 export default {
   components: {
     WipNavbar,
-    WipFooter,
-    ScrollTop
+    WipFooter
   },
 
   data() {

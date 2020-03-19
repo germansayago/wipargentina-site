@@ -54,7 +54,7 @@
         <div class="navbar-social">
           <div class="nav-item">
             <a href="" class="nav-link"
-              ><ion-icon name="logo-twitter"></ion-icon
+              ><ion-icon name="logo-whatsapp"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
@@ -70,6 +70,11 @@
           <div class="nav-item">
             <a href="" class="nav-link"
               ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a href="" class="nav-link"
+              ><ion-icon name="logo-twitter"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
