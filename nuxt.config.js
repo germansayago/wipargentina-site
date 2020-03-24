@@ -86,7 +86,14 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/rigor789/vue-scrollto
-    'vue-scrollto/nuxt'
+    'vue-scrollto/nuxt',
+    [
+      '@nuxtjs/google-gtag',
+      {
+        /* module options */
+        id: 'GTM-5TN2JST'
+      }
+    ]
   ],
   /*
    ** Axios module configuration

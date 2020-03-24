@@ -6,9 +6,11 @@
           <h3>
             ¿Estás listo para empezar?
           </h3>
-          <a href="" class="btn btn-lg btn-outline-light ml-md-3 px-5"
-            ><ion-icon name="logo-whatsapp"></ion-icon>
-            <span class="ml-2">Escribinos!</span></a
+          <a
+            v-scroll-to="{ el: '#contact', offset: -50 }"
+            href=""
+            class="btn btn-lg btn-outline-light ml-md-3 px-5"
+            ><span class="ml-2">¡Conversemos!</span></a
           >
         </div>
       </div>

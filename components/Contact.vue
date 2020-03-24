@@ -23,22 +23,26 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="">Dejanos tu nombre</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Elon Musk"
-                  />
+                  <label for="">Nombre y Apellido</label>
+                  <input type="text" class="form-control" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="">Tu email</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="elon@musk.com"
-                  />
+                  <label for="">Empresa</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">Email</label>
+                  <input type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">Teléfono</label>
+                  <input type="text" class="form-control" />
                 </div>
               </div>
             </div>
@@ -54,8 +58,9 @@
                 ENVIAR
               </button>
               <a
-                href=""
+                href="https://wa.me/5493584112731"
                 class="btn btn-outline-secondary px-5 py-3 mt-3 d-md-flex align-items-center"
+                target="_blank"
                 ><ion-icon name="logo-whatsapp"></ion-icon>
                 <span class="ml-2">ESCRIBINOS</span></a
               >
@@ -66,6 +71,10 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {}
+</script>
 
 <style lang="scss" scoped>
 .form-control {

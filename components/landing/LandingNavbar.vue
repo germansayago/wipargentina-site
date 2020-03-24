@@ -17,25 +17,25 @@
       </button>
 
       <div id="navbarContent" class="collapse navbar-collapse">
-        <div class="navbar-nav navbar-social ml-auto">
-          <!-- <a href="" class="nav-link"
-            ><ion-icon name="logo-twitter"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-instagram"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-facebook"></ion-icon
-          ></a>
-          <a href="" class="nav-link"
-            ><ion-icon name="logo-linkedin"></ion-icon
-          ></a>
-          <a
-            v-scroll-to="{ el: '#contact', offset: -50 }"
-            href="#"
-            class="nav-link"
-            ><ion-icon name="mail"></ion-icon
-          ></a> -->
+        <div class="navbar-nav">
+          <div class="nav item">
+            <nuxt-link to="/" class="nav-link">inicio</nuxt-link>
+          </div>
+          <div class="nav item">
+            <nuxt-link to="/landing/base" class="nav-link">base</nuxt-link>
+          </div>
+          <div class="nav item">
+            <nuxt-link to="/landing/tienda-express" class="nav-link"
+              >tienda express</nuxt-link
+            >
+          </div>
+          <div class="nav item">
+            <nuxt-link to="/landing/estrategias-y-analiticas" class="nav-link"
+              >Estrategia y Analíticas</nuxt-link
+            >
+          </div>
+        </div>
+        <ul class="navbar-nav navbar-social ml-auto">
           <li class="nav-item">
             <a href="#" class="nav-link"
               ><ion-icon name="logo-twitter"></ion-icon
@@ -56,7 +56,7 @@
               ><ion-icon name="logo-linkedin"></ion-icon
             ></a>
           </li>
-        </div>
+        </ul>
       </div>
     </div>
   </nav>

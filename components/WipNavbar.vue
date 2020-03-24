@@ -53,27 +53,42 @@
 
         <div class="navbar-social">
           <div class="nav-item">
-            <a href="" class="nav-link"
+            <a
+              href="https://wa.me/5493584112731"
+              class="nav-link"
+              target="_blank"
               ><ion-icon name="logo-whatsapp"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
-            <a href="" class="nav-link"
+            <a
+              href="https://www.instagram.com/wipargentina/"
+              class="nav-link"
+              target="_blank"
               ><ion-icon name="logo-instagram"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
-            <a href="" class="nav-link"
+            <a
+              href="https://www.facebook.com/wipargentina"
+              class="nav-link"
+              target="_blank"
               ><ion-icon name="logo-facebook"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
-            <a href="" class="nav-link"
+            <a
+              href="https://www.linkedin.com/company/wipargentina"
+              class="nav-link"
+              target="_blank"
               ><ion-icon name="logo-linkedin"></ion-icon
             ></a>
           </div>
           <div class="nav-item">
-            <a href="" class="nav-link"
+            <a
+              href="https://twitter.com/wipargentina"
+              class="nav-link"
+              target="_blank"
               ><ion-icon name="logo-twitter"></ion-icon
             ></a>
           </div>
