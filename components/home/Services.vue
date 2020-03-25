@@ -10,7 +10,7 @@
         <div class="col-md-3">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80"
+              src="/estrategia-y-analitica-digital.webp"
               alt=""
               class="card-image"
             />
@@ -29,11 +29,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80"
-              alt=""
-              class="card-image"
-            />
+            <img src="/negocios-inteligentes.webp" alt="" class="card-image" />
             <div class="card-body">
               <ion-icon name="trending-up-outline"></ion-icon>
               <h4>Negocios Inteligentes</h4>
@@ -49,11 +45,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1541960071727-c531398e7494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80"
-              alt=""
-              class="card-image"
-            />
+            <img src="/sistemas-agiles.webp" alt="" class="card-image" />
             <div class="card-body">
               <ion-icon name="basket-outline"></ion-icon>
               <h4>Sistemas Ágiles</h4>
@@ -69,11 +61,7 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80"
-              alt=""
-              class="card-image"
-            />
+            <img src="consultorias.webp" alt="" class="card-image" />
             <div class="card-body">
               <ion-icon name="glasses-outline"></ion-icon>
               <h4>Consultorías</h4>

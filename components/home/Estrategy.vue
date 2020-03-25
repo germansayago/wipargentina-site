@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-6 mt-3 mt-md-0">
           <img
-            src="/box-2.png"
+            src="/estrategia.webp"
             alt="image"
             class="img-fluid"
             data-aos="fade-up"

@@ -13,7 +13,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <ion-icon size="large" name="menu-outline"></ion-icon>
+        <ion-icon size="large" name="menu-outline" />
       </button>
 
       <div id="navbarContent" class="collapse navbar-collapse">
@@ -57,48 +57,49 @@
               href="https://wa.me/5493584112731"
               class="nav-link"
               target="_blank"
-              ><ion-icon name="logo-whatsapp"></ion-icon
-            ></a>
+            >
+              <ion-icon name="logo-whatsapp" />
+            </a>
           </div>
           <div class="nav-item">
             <a
               href="https://www.instagram.com/wipargentina/"
               class="nav-link"
               target="_blank"
-              ><ion-icon name="logo-instagram"></ion-icon
-            ></a>
+              ><ion-icon name="logo-instagram"
+            /></a>
           </div>
           <div class="nav-item">
             <a
               href="https://www.facebook.com/wipargentina"
               class="nav-link"
               target="_blank"
-              ><ion-icon name="logo-facebook"></ion-icon
-            ></a>
+              ><ion-icon name="logo-facebook"
+            /></a>
           </div>
           <div class="nav-item">
             <a
               href="https://www.linkedin.com/company/wipargentina"
               class="nav-link"
               target="_blank"
-              ><ion-icon name="logo-linkedin"></ion-icon
-            ></a>
+              ><ion-icon name="logo-linkedin"
+            /></a>
           </div>
           <div class="nav-item">
             <a
               href="https://twitter.com/wipargentina"
               class="nav-link"
               target="_blank"
-              ><ion-icon name="logo-twitter"></ion-icon
-            ></a>
+              ><ion-icon name="logo-twitter"
+            /></a>
           </div>
           <div class="nav-item">
             <a
               v-scroll-to="{ el: '#contact', offset: -50 }"
               href="#"
               class="nav-link"
-              ><ion-icon name="mail"></ion-icon
-            ></a>
+              ><ion-icon name="mail"
+            /></a>
           </div>
         </div>
       </div>
